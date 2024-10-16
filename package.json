@@ -1,6 +1,6 @@
 {
-  "name": "my-component-library",
-  "version": "1.0.0",
+  "name": "@raviganesh12/my-component-library",
+  "version": "1.0.1",
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -31,5 +31,6 @@
     "@types/jest": "^29.5.13",
     "@types/react": "^18.3.11",
     "eslint": "^8.19.0"
-  }
+  },
+  "private": false
 }

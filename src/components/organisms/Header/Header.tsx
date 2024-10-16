@@ -22,12 +22,13 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, logo }) => {
 const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     padding: 10,
     backgroundColor: '#f8f8f8',
+    verticalAlign: 'top'
   },
   logo: {
-    width: 50,
+    width: 300,
     height: 50,
     marginRight: 10,
   },

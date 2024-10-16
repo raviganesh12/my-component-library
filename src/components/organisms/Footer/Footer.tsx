@@ -18,9 +18,10 @@ const Footer: React.FC<FooterProps> = ({ logo, footerText }) => {
 const styles = StyleSheet.create({
   footer: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     padding: 10,
     backgroundColor: '#f8f8f8',
+    verticalAlign: 'bottom'
   },
   logo: {
     width: 50,
