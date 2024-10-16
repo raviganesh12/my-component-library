@@ -5,12 +5,13 @@ import CheckBox from './src/components/atoms/CheckBox/CheckBox';
 
 
 const App = () => {
-  const [isChecked, setIsChecked] = useState(false); 
+  const [isChecked, setIsChecked] = useState(false);                     
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Welcome to Your React Native App!</Text>
-      <Button title='Im a Button' onPress={() => alert("Hi")}></Button>
+      
       <CheckBox checked={isChecked} setChecked={setIsChecked} style={styles.checkbox}></CheckBox>
+      <Button title='Im a Button' onPress={() => alert("Hi")}></Button>
     </View>
   );
 };
