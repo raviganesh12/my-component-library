@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Text, AppRegistry } from 'react-native';
-import Button from './src/components/atoms/Button';
-import CheckBox from './src/components/atoms/CheckBox';
+import Button from './src/components/atoms/Button/Button';
+import CheckBox from './src/components/atoms/CheckBox/CheckBox';
 
 
 const App = () => {
